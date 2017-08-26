@@ -1,0 +1,119 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.home {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #c9d5df;
+}
+.home h1,
+.home .h1 {
+  color: inherit;
+}
+.home p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.home > hr {
+  border-top-color: #d5d5d5;
+}
+.container .home,
+.container-fluid .home {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.home .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .home {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .home,
+  .container-fluid .home {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .home h1,
+  .home .h1 {
+    font-size: 63px;
+  }
+}
+.btn-custom {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #D99C46;
+}
+.btn-custom:focus,
+.btn-custom.focus {
+  color: #fff;
+  background-color: #e3791c;
+  border-color: #985f0d;
+}
+.btn-custom:hover {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-custom:active,
+.btn-custom.active,
+.open > .dropdown-toggle.btn-custom {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-custom:active:hover,
+.btn-custom.active:hover,
+.open > .dropdown-toggle.btn-custom:hover,
+.btn-custom:active:focus,
+.btn-custom.active:focus,
+.open > .dropdown-toggle.btn-custom:focus,
+.btn-custom:active.focus,
+.btn-custom.active.focus,
+.open > .dropdown-toggle.btn-custom.focus {
+  color: #fff;
+  background-color: #d58512;
+  border-color: #985f0d;
+}
+.btn-custom:active,
+.btn-custom.active,
+.open > .dropdown-toggle.btn-custom {
+  background-image: none;
+}
+.btn-custom.disabled:hover,
+.btn-custom[disabled]:hover,
+fieldset[disabled] .btn-custom:hover,
+.btn-custom.disabled:focus,
+.btn-custom[disabled]:focus,
+fieldset[disabled] .btn-custom:focus,
+.btn-custom.disabled.focus,
+.btn-custom[disabled].focus,
+fieldset[disabled] .btn-custom.focus {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-custom .badge {
+  color: #f0ad4e;
+  background-color: #fff;
+}
+footer {
+    width: 100%;
+    min-height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    color: #9d9d9d;
+    background-color: #222;
+}
+footer .container {
+}
